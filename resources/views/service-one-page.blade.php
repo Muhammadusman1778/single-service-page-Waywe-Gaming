@@ -4,23 +4,21 @@
 
 @section('content')
 
-    <section class="service-banner position-relative">
-
-
-        <img src="{{ asset('assets/images/banner.svg') }}" alt="Service Banner" class="banner-img img-fluid w-100">
-
-
+    <section class="service-banner position-relative mb-0 pb-0">
+        <img src="{{ asset('assets/images/banner.svg') }}" alt="Service Banner" class="banner-img img-fluid w-100 d-block">
         <div class="banner-title">
-            <h1 class="text-white text-center">Area Rug<br>Cleaning</h1>
+            <h1 class="text-white text-center mb-0">Area Rug<br>Cleaning</h1>
         </div>
-
     </section>
 
-
-    <div class="banner-strip d-flex justify-content-between align-items-center text-white px-4 py-2">
+    <div class="banner-strip d-flex justify-content-between align-items-center text-white px-4 py-2 mt-n3">
         <span>Get 20% Off On Our Commercial Services</span>
         <span>Limited Time Offer!</span>
     </div>
+
+
+
+
 
     <section class="process-section">
         <div class="process-grid">
@@ -282,7 +280,7 @@
 
 
     <section class="py-5">
-        <div class="container">
+        <div class="py-5">
             <div class="row g-0 align-items-stretch">
 
 
