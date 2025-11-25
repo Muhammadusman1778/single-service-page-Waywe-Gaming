@@ -1,4 +1,4 @@
-@extends('layouts.layout')
+@extends('layouts.app')
 
 @section('title', 'Service')
 
@@ -129,7 +129,7 @@
                             </p>
                         </div>
 
-                        <a href="#" class="btn btn-primary align-self-start mt-4">
+                        <a href="/get-quote" class="btn btn-primary align-self-start mt-4">
                             Get a Quote
                         </a>
 
