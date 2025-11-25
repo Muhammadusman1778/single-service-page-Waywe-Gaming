@@ -1,0 +1,45 @@
+# Node and Vendor dependencies
+/vendor
+/node_modules
+
+# Laravel runtime & cache
+/storage/*.key
+/storage/logs/*.log
+/storage/framework/cache/data
+/storage/framework/sessions
+/storage/framework/views
+/bootstrap/cache/*.php
+
+# Environment files
+.env
+.env.local
+.env.*.local
+.env.backup
+.env.testing
+
+# IDE & OS files
+/.idea
+/.vscode
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+*.tmp
+
+# NPM & Yarn logs
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+package-lock.json
+yarn.lock
+
+# Laravel Mix & compiled files (optional if you push public)
+# /public/css
+# /public/js
+# /public/mix-manifest.json
+/public/hot
+
+# Homestead / Vagrant (optional)
+Homestead.yaml
+Homestead.json
+/.vagrant
