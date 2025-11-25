@@ -24,4 +24,8 @@ class ServiceController extends Controller
     {
         return view('service-three-page');
     }
+    public function getQuote()
+    {
+        return view('quote-page');
+    }
 }
